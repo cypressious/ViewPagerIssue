@@ -46,7 +46,7 @@ public class Fragment1 extends Fragment {
 
     private class DatePagerAdapter extends FragmentStatePagerAdapter {
 
-        private static final int DAYS_TO_SHOW = 365;
+        private static final int DAYS_TO_SHOW = 10;
 
         public DatePagerAdapter() {
             super(getChildFragmentManager());
